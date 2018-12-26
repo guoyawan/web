@@ -1,0 +1,447 @@
+*{
+	margin: 0;
+	padding:0px;
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.box{
+	height: 32px;
+	width: 100%;
+	background: #007ae1;
+}
+.w1000{
+	width: 1002px;
+	margin: 0 auto;
+}
+.top p{
+	font-family: "songti";
+    font-size: 12px;
+    color: #fff;
+    float: left;
+}
+.box div p.zy{
+    line-height: 32px;
+    margin-left: 26px;
+}
+
+.box div p.yi{
+    line-height: 32px;
+    margin-right: 31px;
+    float: right;
+}
+.box div p.ye{
+    line-height: 32px;
+    margin-right: 22px;
+    float: right;
+}
+/*top end*/
+/*navbegin*/
+.sy{
+	height: 97px;
+	background: #eee;
+	width: 100%;
+}
+.sy img{
+	margin-left: 25px;
+	height: 57px;
+	width: 168px;
+    margin-top: 21px;
+	float: left;
+}
+.sy p{
+	margin-top: 30px;
+    margin-left: 83px;
+	float: left;
+}
+.sy p a{
+	display: block;
+	color: #494949;
+	font-family: "微软雅黑" ;
+	font-size: 18px;
+	height: 32px;
+	line-height: 31px;
+	float: left;
+	margin-left: 54px;
+}
+.sy p a:hover{
+	color: #007AE1;
+	border-bottom: #007ae1 2px solid;
+}
+.sy p a.yi{
+	margin-left: 0px;
+	color: #007AE1;
+	border-bottom: #007ae1 2px solid;
+}
+.sy p a.san{
+	margin-left: 44px;
+}
+.sy p a.si{
+	margin-left: 44px;
+}
+/*nav end*/
+/*ban begin*/
+.be{
+	width: 100%;
+	height: 514px;
+	background: url(../images/ban_02.png) repeat-x center 0;
+	position: relative;
+}
+.be div{
+	position: relative;
+}
+.be p span.red1{
+	display: block;
+	width: 61px;
+	height: 5px;
+	position: absolute;
+	top:490px;
+	left: 390px;
+	background: #FF0000;
+}
+.be p span.red2{
+	display: block;
+	width: 61px;
+	height: 5px;
+	background: #d8d8d8;
+	position: absolute;
+	top:490px;
+	left: 470px;
+}
+.be p span.red3{
+	display: block;
+	width: 61px;
+	height: 5px;
+	background: #d8d8d8;
+	position: absolute;
+	top:490px;
+	left: 550px;
+}
+.be p span:hover{
+	background: #FF0000;
+}
+/*ban end*/
+.about{
+	height:498px;
+	background: url(../images/bj_02.png) repeat-x center 0;
+	width: 100%;
+}
+.lei{
+	color: #FFF;
+	float: left;
+	margin-left: 6px;
+	width: 100%;
+	font-family: "微软雅黑";
+	
+}
+.lei span{
+	display: block;
+	margin-top: 28px;
+	float: left;
+	font-size: 30px;
+}
+.lei strong{
+	display: block;
+	margin-top: 38px;
+	float: left;
+	margin-left: 10px;
+	font-weight: normal;
+	font-size: 18px;
+}
+.lei a{
+	display: block;
+	background: url(../images/jiantou_03.png) no-repeat;
+	width: 37px;
+	height: 37px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 30px;
+}
+.w{
+    height: 420px;
+    width: 902;
+    color: #FFFFFF;
+    padding: 0 50px;
+    
+}
+.w h4{
+	height: 76px;
+	padding-top: 16px;
+	line-height: 76px;
+	font-size: 24px;
+	text-align: center;
+	clear: both;
+	font-weight: normal;
+}
+.w p{
+	line-height: 40px;
+	width: 100%;    text-indent: 2em;
+    font-size: 18px;
+}
+/*wm end*/
+/*service begin*/
+.eara{
+	background: url(../images/yj_03.png) repeat-x center 0;
+	height: 553px;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+.eara ul{
+	height: 187px;
+	padding: 67px 21px 58px 21px;
+	clear: both;
+	width: 959px;
+}
+.eara ul li{
+	height: 187px;
+	width: 171px;
+	margin-left: 26px;
+	float: left;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.eara ul li.e{
+	margin-left: 0;
+	background: #4db5f7;
+}
+.l{
+	display: block;
+	width: 96px;
+	height: 96px;
+	padding: 25px 37px ;
+}
+.eara ul li.set{
+	background: #f7b449;
+}
+.eara ul li.wx{
+	background: #75c273
+}
+.eara ul li.cloud{
+	background: #ff5253;
+}
+.eara ul li.pp{
+	background: #7265ab;
+}
+.youhua{
+	background: url(../images/xinying_05.png);
+	height: 149px;
+	width: 1001px;
+}
+.youhua span{
+	display: block;
+	font-size: 32px;
+	padding-top:17px ;
+	padding-left: 30px;
+	color: #585858;
+	width: 161px;
+	float: left;
+}
+.youhua i{
+	display: block;
+	font-size: 22px;
+	margin-top: 50px;
+	margin-right: 66px;
+	color: 22px;
+	float: right;
+	font-style:normal ;
+	color: #FFFFFF;
+	width: 90px;
+}
+.youhua b{
+	display: block;
+	font-size: 16px;
+	margin-left: 30px;
+	font-weight:normal ;
+	color: #a2a2a2;
+	width: 656px;
+	float: left;
+	line-height: 31px;
+}
+/*sercive end*/
+/*show begin*/
+.case{
+	background: url(../images/anli_02.png) repeat-x center 0;
+	width: 100%;
+	height: 727px;
+}
+
+.tu{
+	margin-top: 76px;
+	float: left;
+}
+.tu p{
+	display: block;
+	height: 252px;
+	width: 308px;
+	text-align: center;
+	float: left;
+	
+}
+.tu p img{
+	display: block;
+	height: 214px;
+	width: 308px;
+}
+.sec{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.tu p i{
+	display: block;
+	color: #FFFFFF;
+	font-family: "微软雅黑";
+	font-size: 22px;
+	font-style: normal;
+	margin-top: 16px;
+}
+.ti{
+	margin-top: 38px;
+}
+.show{
+	position: relative;
+	height: 727px;
+}
+.zj{
+	position: absolute;
+	top: 390px;
+	left: -80px;
+	
+}
+.yiii{
+	position: absolute;
+	top: 390px;
+    right: -80px;
+}
+/*end*/
+/*TEXT BEGIN*/
+.news{
+	background: url(../images/TEXT_12.png) repeat-x center 0;
+	height: 515px;
+	width: 100%;
+}
+.tex{
+	font-family: "微软雅黑";
+	float: left;
+	color: #FFFFFF;
+	padding-top: 29px;
+}
+.tex b{
+	font-size: 28px;
+	font-weight: normal;
+}
+.tex span{
+	font-size: 14px;
+}
+.tex i{
+	font-style: normal;
+	font-size: 16px;
+	float: right;
+}
+.tex ul li{
+	font-size: 16px;
+	line-height: 30px;
+	height: 30px;
+	width: 456px;
+}
+.tex ul li span{
+	float: left;
+}
+.tex ul{
+    margin-top: 30px
+}
+.zuo{
+	margin-right: 70px;
+	margin-left: 10px;
+}
+.you{
+	margin-right: 10px;
+}
+/*new end*/
+/*<!--co begin-->*/
+.co{
+	height: 221px;
+	width: 100%;
+	background: #eeeeee;
+}
+.hb{
+	height: 24px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 18px;
+}
+.co i{
+	height: 24px;
+	width: 23px;
+	display: block;
+	background: url(../images/tubiao7_03.png) no-repeat;
+	float: left;
+	/*margin-top: 40px;
+	margin-left: 18px;*/
+}
+.co span{
+	display: block;
+	font-family: "微软雅黑";
+	float: left;
+	margin-left: 5px;
+	color: #027cc5;
+	font-size: 24px;
+	margin-top: -8px;
+}
+.co p {
+	height: 74px;
+	width: 1002px;
+	background: #ffffff;
+	border: #858585 1px solid;
+	border-radius: 6px;
+	margin-bottom: 60px;
+	float: left;
+	margin-top: 24px;
+}
+.co p img{
+	float: left;
+	margin-left: 58px;
+	margin-top: 16px;
+}
+.co p img.m{
+	margin-top: 26px;
+	margin-left: 11px;
+}
+.co p img.com,
+.co p img.f,
+.co p img.chain,
+.co p img.ba{
+	height: 45px;
+}
+.co p img.ba{
+	margin-left: 67px;
+}
+.co p img.j{
+	float: right;
+	margin-top: 26px;
+	margin-right: 11px;
+}
+/*end*/
+/*las begin*/
+.las{
+	height: 111px;
+	width: 100%;
+	background: #0a98e0;
+}
+.t  p{
+	font-family: "songti";
+	font-size: 12px;
+	color: #fff;
+	margin-top: 20px;
+	float: left;
+	margin-left: 152px;
+}
+.t span{
+	display: block;
+	height: 32px;
+	width: 712px;
+	line-height: 32px;
+	text-align: center;
+}
+/*las end*/

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body,div,ul,ol,li,h1,h2,h3,h4,h5,h6,input,textarea,p,img,td,tr,table,tbody,th{
+            margin:0;
+            padding:0;
+        }
+        body{
+            position: relative;
+        }
+        .x{
+            z-index: -1;
+        }
+        a{
+            text-decoration:none ;
+        }
+        img{
+            border:0;
+        }
+        em,strong,i,b{
+            font-style:normal;font-weight:normal;
+        }
+        ol,ul{
+            list-style:none;
+        }
+        h1,h2,h3,h4,h5,h6{
+            font-size:100%;
+            font-weight:normal;
+        }
+        #box{
+            float: right;
+        }
+        #product{
+            font-size: 12px;
+            height: 24px;
+            width: 60px;
+            background: #3388ff;
+            display: block;
+            color:  #ffffff;
+            text-align: center;
+            line-height: 24px;
+            margin-top: 20px;
+        }
+        #list{
+            width: 85px;
+            height :886px;
+            background: #f9f9f9;
+            display: none;
+        }
+        #list li{
+            width: 68px;
+            height: 76px;
+            border-top: #f0f0f0 1px solid;
+            margin-left: 8px;
+            font-size: 11px;
+            color: #666666;
+        }
+        #list img{
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        #list li b{
+            display: block;
+            width: 68px;
+            text-align: center;
+            height: 20px;
+            line-height: 20px;
+        }
+        .last-l a{
+            display: block;
+            padding-top: 18px;
+            width: 66px;
+            font-size: 11px;
+            color: #666666;
+            border-bottom: #666666 1px solid;
+            height: 11px;
+            line-height: 11px;
+        }
+        #box1{
+            float: right;
+        }
+        #setting{
+            display: block;
+            margin: 27px 24px 6px 24px;
+            font-size: 11px;
+            height: 11px;
+            line-height: 11px;
+            color: #333333;
+            border-bottom: #333333 1px solid;
+            width: 24px;
+        }
+        #list1{
+            width: 70px;
+            height: 104px;
+            border: #d1d1d1 1px solid;
+            display: none;
+        }
+    #list1 li{
+        height: 26px;
+        width: 70px;
+        font-size: 11px;
+        text-align: center;
+        line-height: 26px;
+        color: #333333;
+        position: relative;
+    }
+    #list1 li:hover{
+        background: #3388ff;
+    }
+    #list1 li:hover span{
+        color: #FFFFFF;
+    }
+        #list1 li b{
+            position: absolute;
+            display: block;
+            background: url("../images/slge_03.png");
+            width: 10px;
+            height: 6px;
+            top: -6px;
+            right: 30px;
+        }
+        #loading{
+            display: block;
+            margin: 27px 14px 6px 14px;
+            font-size: 11px;
+            height: 11px;
+            line-height: 11px;
+            color: #333333;
+            border-bottom: #333333 1px solid;
+            width: 24px;
+            float: right;
+        }
+        #back{
+            width: 100%;
+            height: 946px;
+            background: rgba(128,128,128,0.5);
+            position: absolute;
+            z-index: 1;
+            display: none;
+        }
+        .onback{
+            width: 356px;
+            height: 430px;
+            margin-top: 255px;
+            margin-left: 780px;
+            background: #FFFFFF;
+        }
+        .top{
+            height: 56px;
+            width: 100%;
+        }
+        .top img{
+            float: left;
+            margin-top: 25px;
+            margin-left: 28px;
+        }
+        .top span{
+            display: block;
+            width: 2px;
+            height: 2px;
+            background: #737a8f;
+            float: left;
+            margin-top: 46px;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        .top b{
+            display: block;
+            margin-top: 39px;
+            float: left;
+            font-size: 12px;
+            color: #000;
+        }
+        .top a{
+            float: right;
+            margin-top: 13px;
+            margin-right: 16px;
+            color: #cccccd;
+            font-size: 16px;
+        }
+        .content{
+            margin-top: 40px;
+            margin-left: 100px;
+        }
+        .content span{
+            display: block;
+            height: 60px;
+            line-height: 60px;
+            font-size: 14px;
+        }
+        .content span strong{
+            color: #2e82ff;
+        }
+        
+.safe {
+    margin-left: 62px;
+}
+.safe img{
+    float: left;
+}
+.safe strong{
+    display: block;
+    width: 76px;
+    font-size: 11px;
+    float: left;
+    color: #999999;
+}
+ .foot{
+     height: 60px;
+     width: 100%;
+     background: #f0f6ff;
+     float: left;
+     margin-top: 40px;
+ }
+        .foot em {
+            float: left;
+            display: block;
+            margin-left: 28px;
+            margin-top: 23px;
+            color: #2e82ff;
+            font-size: 12px;
+        }
+        .foot i{
+            display: block;
+            float: left;
+            margin-left: 8px;
+            margin-top: 28px;
+            width: 1px;
+            height: 8px;
+            background: #2e82ff;
+        }
+        .foot span{
+            display: block;
+            width: 14px;
+            height: 15px;
+            background: url("../images/loading_21.png");
+            float: left;
+            margin-top: 22px;
+            margin-left: 14px;
+        }
+        .foot b{
+            display: block;
+            width: 17px;
+            height: 15px;
+            background: url("../images/loading_23.png");
+            float: left;
+            margin-top: 23px;
+            margin-left: 12px;
+        }
+        .foot strong{
+            display: block;
+            float: right ;
+            margin-right: 26px;
+            margin-top: 23px;
+            color: #2e82ff;
+            font-size: 12px;
+        }
+    </style>
+    <script>
+        window.onload =function(){
+            var oProduct=document.getElementById('product');
+            var oList=document.getElementById('list');
+            var oBox=document.getElementById('box');
+            var oSetting=document.getElementById('setting');
+            var oBox1=document.getElementById('box1');
+            var oList1=document.getElementById('list1');
+            var oLoading=document.getElementById('loading');
+            var oBox2=document.getElementById('box2');
+            var oEro=document.getElementById('ero');
+            var oBack=document.getElementById('back');
+
+
+
+        oBox.onmouseover=function () {
+            oProduct.style.width = '85px';
+            oProduct.style.height = '52px';
+            oProduct.style.background = '#f9f9f9';
+            oProduct.style.color = '#333333';
+            oProduct.style.lineHeight='52px';
+            oProduct.style.marginTop='0px';
+            oList.style.display='block';
+            this.style.height='100%';
+            this.style.background='#f9f9f9'
+            this.style.borderLeft='#e7e7e7 1px solid'
+          }
+
+            oBox.onmouseout=function () {
+                oProduct.style.width = '60px';
+                oProduct.style.height = '24px';
+                oProduct.style.background = '#3388ff';
+                oProduct.style.color = '#ffffff';
+                oProduct.style.lineHeight='24px';
+                oProduct.style.marginTop='20px';
+                oList.style.display='none';
+                this.style.height='100%';
+                this.style.background='#ffffff';
+                this.style.borderLeft='none';
+            }
+
+            oBox1.onmouseover=function () {
+                oSetting.style.color = '#0000cc';
+                oSetting.style.borderBottomColor = '#0000cc';
+                oList1.style.display='block';
+            }
+
+            oBox1.onmouseout=function () {
+                oSetting.style.color = '#333333';
+                oSetting.style.borderBottomColor = '#333333';
+                oList1.style.display='none';
+            }
+            oBox2.onclick=function () {
+                oLoading.style.color = '#0000cc';
+                oLoading.style.borderBottomColor = '#0000cc';
+                oBack.style.display='block';
+            }
+            oEro.onclick=function () {
+                oBack.style.display='none';
+                oLoading.style.color = '#333333';
+                oLoading.style.borderBottomColor = '#333333';
+            }
+        }
+    </script>
+
+    <title>Title</title>
+</head>
+<body>
+<div class="x">
+    <div id="box">
+        <a id="product" href="javascript:;">更多产品</a>
+        <ul id="list">
+            <li><img src="../images/baidu_03.gif" alt=""><b>糯米</b></li>
+            <li><img src="../images/baidu_06.gif" alt=""><b>音乐</b></li>
+            <li><img src="../images/baidu_08.gif" alt=""><b>图片</b></li>
+            <li><img src="../images/baidu_10.gif" alt=""><b>知道</b></li>
+            <li><img src="../images/baidu_12.gif" alt=""><b>文库</b></li>
+            <li><img src="../images/baidu_14.png" alt=""><b>风云榜</b></li>
+            <li class="last-l"><a href="javascript:;">全部产品>></a></li>
+        </ul>
+    </div>
+
+    <div id="box1">
+        <a id="setting" href="javascript:;">设置</a>
+        <ul id="list1">
+            <li class="first-1"><b></b><span>搜索设置</span></li>
+            <li><span>高级搜索</span></li>
+            <li><span>关闭预测</span></li>
+            <li><span>隐私设置</span></li>
+        </ul>
+    </div>
+
+    <div id="box2">
+        <a id="loading" href="javascript:;">登录</a>
+</div>
+
+<div id="back">
+         <div class="onback">
+             <p class="top">
+                 <img src="../images/loading_03.png" alt="img">
+                <span></span>
+                 <b>扫码登录</b>
+                 <a id="ero"  href="javascript:;">X</a>
+             </p>
+             <p class="content">
+                 <img src="../images/load1.png" alt="img">
+                 <span>请使用<strong>百度APP</strong>扫码登录</span>
+             </p>
+             <p class="safe">
+                 <img src="../images/loading_11.png" alt="img">
+                  <strong>安全</strong>
+                 <img src="../images/loading_13.png" alt="img">
+                 <strong>高效</strong>
+                 <img src="../images/loading_15.png" alt="img">
+                 <strong>便捷</strong>
+             </p>
+             <p class="foot">
+                 <em>用户名登录</em>
+                 <i></i>
+                 <span></span>
+                 <b></b>
+                 <strong>立即注册</strong>
+             </p>
+         </div>
+</div>
+
+
+</div>
+</body>
+</html>

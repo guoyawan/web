@@ -1,0 +1,83 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+.wangyi{
+	width: 300px;
+	height: 276px;
+	border: #e5e5e5 1px solid;
+	border-top: none;
+	border-bottom: none;
+	margin: 250px auto;
+}
+.wangyi div a.c{
+	display: block;
+	border-top: #f33 2px solid;
+	height: 38px;
+	line-height: 38px;
+	width: 149px ;
+	text-align: center;
+	color: #FF3333;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	float: left;
+}
+.wangyi div a.p{
+	display: block;
+	border: #e5e5e5 1px solid;
+	border-right:none;
+	height: 38px;
+	line-height: 38px;
+	width: 148px ;
+	text-align: center;
+	color: #888;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	float: left;
+	background: url(../img/arrow.png)no-repeat no-repeat #f8f8f8 124px 12px;
+}
+.wya{
+	width: 268px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 15px;
+}
+.wya  div{
+    width: 268px;
+    height: 49px;
+    padding: 15px 0;
+    border-bottom: #e5e5e5 1px solid;
+}
+.wya div img{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.wya div h5 {
+    color: #404040;
+    font-size: 12px;
+    font-weight: normal;
+    width: 216px;
+    height: 20px;
+    float: left;
+    line-height: 20px;
+    overflow: hidden;
+}
+.wya div p {
+    width: 216px;
+    height: 28px;
+    float: left;
+    line-height: 28px;
+}
+.wya div p a {
+    font-size: 12px;
+    color: #888;
+    padding-right: 8px;
+}   
+.wya div p a:last-child {
+	padding-right: 0px;
+}                            

@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.zuoye{
+	width: 301px;
+	height: 251px;
+	background: #fafafa;
+	margin: 250px auto;
+}
+.zuoye div{
+	height: 40px;
+	width: 301px;
+}
+.zuoye div a.hd{
+	display: block;
+	height: 38px;
+	width: 75px;
+	border-top: #e53834 2px solid;
+	line-height: 38px;
+	color: #e53834;
+	font-size: 14px;
+	float: left;
+	text-align: center;
+}
+.zuoye div a.sw{
+	display: block;
+	height: 38px;
+	width: 203px;
+	border-top: #c3c3c3 2px solid;
+	border-left: #c3c3c3 2px solid;
+	line-height: 38px;
+	color: #000217;
+	font-size: 14px;
+	float: right;
+	padding-left: 21px;
+	color: #010100;
+	font-size: 14px ;
+}
+.ja{
+	color: #271c2a;
+	margin-left: 12px;
+	font-size: 15px;
+	height: 40px;
+	width: 301px;
+	line-height: 40px;
+}
+.jin{
+	height: 82px;
+	width: 301px;
+}
+.jin img{
+	height: 80px;
+	width: 120px;
+	margin-left: 12px;
+	float: left;
+}
+.jin p{
+	font-size: 15px;
+	color: #748887;
+	height: 82px;
+	width: 126px;
+	margin-right: 35px;
+	float: right;
+}
+.jin p a{
+	font-size: 15px;
+	color: #c90032;
+}
+.zheng{
+	height: 89px;
+	width: 301px;
+}
+.zheng p{
+	height: 4px;
+	width: 4px;
+	margin-left: 12px;
+	margin-top: 28px;
+	background: #ea7a6e;
+	float: left;
+}
+.zheng a{
+	display: block;
+	height: 13px;
+	width: 277px;
+	margin-left: 8px;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #3c3c46;
+	float: left;
+}

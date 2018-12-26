@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/blue.css" id="link">
+
+    <style>
+        div{
+            height: 100px;
+            width: 100%;
+        }
+        input{
+            height: 100px;
+            float: left;
+            width: 300px;
+            margin-left: 20px;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            var oBt1=document.getElementById('bt1');
+            var oBt2=document.getElementById('bt2');
+            var oBt3=document.getElementById('bt3');
+            var oLink=document.getElementById('link');
+
+
+            oBt1.onclick=function () {
+              oLink.href='../css/blue.css';
+            }
+            oBt2.onclick=function () {
+                oLink.href='../css/red.css';
+            }
+            oBt3.onclick=function () {
+                oLink.href='../css/green.css';
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div>
+    <input id="bt1" type="button">
+    <input id="bt2" type="button">
+    <input id="bt3" type="button">
+</div>
+
+</body>
+</html>
