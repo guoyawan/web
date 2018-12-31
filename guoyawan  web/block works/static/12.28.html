@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #btn{
+            height: 50px;
+            width: 200px;
+        }
+    </style>
+    <script>
+
+        window.onload=function () {
+            var oBtn=document.getElementById('btn');
+            var  iNow=5;
+            var timer;
+
+           oBtn.onclick=function () {
+               clearInterval(timer);
+               this.value=iNow+'秒之后重新发送';
+               timer=setInterval(function () {
+                   iNow--;
+                   oBtn.value=iNow+'秒之后重新发送';
+                   if (iNow == 0) {
+                       oBtn.value='点击重新发送验证码';
+                       iNow=5;
+                       clearInterval(timer);
+                   }
+               },1000);
+
+           }
+        }
+
+
+    </script>
+
+</head>
+<body>
+<input type="button" id="btn" value="点击发送验证码">
+</body>
+</html>

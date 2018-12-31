@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        ul li{
+            width: 500px;
+            height: 50px;
+        }
+    </style>
+
+
+    <script>
+        for (io=0; io<8;io++) {
+            if (io==1){   /*if 多条件判断*/
+                alert('星期一');
+            }else if (io==2) {
+                alert('星期二');
+            }else if (io==3) {
+                alert('星期三');
+            }else if (io==4) {
+                alert('星期四');
+            }else if (io==5){
+                alert('星期五')
+            } else if (io==6){
+                alert('星期六')
+            } else if (io==7){
+                alert('星期日')
+            }
+        }
+        var iNum=12.333;
+        alert(parseInt(iNum));/*取整*/
+        alert(parseFloat(iNum));/*取小数*/
+        alert(!iNum);/*true真值 测真假 取反值*/
+        var green='a123';
+        alert(parseFloat(green));
+
+        var black=2;
+        var  red=3;
+        if (black==2 || black==3) { /*|| 或 两个条件满足一个即可成立*/
+            alert('我们卫小庄最好看')
+        }
+        if (black==2 && red==3) { /*|| 或 两个条件都满足即可成立*/
+            alert('我们卫小庄最好看')
+        }
+        var blue='a123';
+        var gray=NaN;
+        alert(isNaN(blue));/*true 表明不是一个数字*/
+        alert(typeof gray);/*number（无解） 不是数字的类型（NaN）是数字*/
+
+
+
+        for (i=0;i<5;i++){    /*for循环用于清楚个数*/
+            if(i==2)continue;
+            alert(i);
+        }
+        //
+        // var i=0;
+        // while (i<5) {   /*循环用于不清楚个数*/
+        //     if(i==2)continue;
+        //     alert(i);
+        //     i++;
+        // }  有问题
+        a=12;
+        a=12 ? alert('yes'):alert('no'); /*三目*/
+        i=1;
+
+        /*判断*/
+        switch(i){
+            case  1:
+                alert('星期一');
+                break;
+            case  2:
+                alert('星期二');
+                break;
+            case  3:
+                alert('星期三');
+                break;
+            case  4:
+                alert('星期四');
+                break;
+        }
+
+    /*运算符号*/
+        alert(1+2);/*加*/
+        alert(1-2);/*减*/
+        alert(1*2);/*乘*/
+        alert(12/7);/*除*/
+        alert(12%7);  /*取模 （余数）*/
+
+        var king=12;
+        var queen='12';
+        alert(king==queen); /*true隐藏转换类型 后比较值*/
+        alert(king===queen);/*false比较所有的类型和值*/
+
+        var line = '12';
+        var bine= 5;
+        alert( (line + bine));/*125字符加数字为字符段*/
+
+
+
+
+
+
+        window.onload=function () {
+
+        var aLi=document.getElementsByTagName('li');
+
+        for (var i=0; i<aLi.length; i++){
+            if (i%2==0) { /*用余数判断奇偶值*/
+                aLi[i].style.background='red';
+            }else{
+                aLi[i].style.background='black';
+            }
+        }
+     function a() {}
+            alert(typeof a);//函数
+
+    var b=10;
+        alert(typeof b);/*数字 number*/
+
+     var c='10';
+        alert(typeof c);/*字符串 string*/
+
+      var d;
+        alert(typeof d);/*未定义undefined*/
+
+     var f=false;
+        alert(typeof f);
+     var e=true;
+        alert(typeof e);/*布尔值boolean*/
+
+      var aBox=document.getElementById('box');
+      alert(typeof  aLi);/*object 对象*/
+
+      var aStrong=document.getElementById('strong');
+      alert(typeof  aStrong);/*object 对象*/
+      alert( aStrong); /*null*/
+
+            var k='';
+        alert(k); /*无*/
+
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+<div id="box"></div>
+</body>
+</html>

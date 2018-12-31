@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    #jd{
+        height: 470px;
+        width: 590px;
+        position: relative;
+        margin: 0 auto;
+    }
+    #jd div{
+        height: 470px;
+        width: 590px;
+        display: none;
+    }
+    #jd div.photo{
+        display: block;
+    }
+    #jd p{
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+    }
+    #jd p span{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border: ghostwhite 2px solid;
+        border-radius: 50%;
+        float: left;
+        margin-left: 15px;
+    }
+    #jd p span.point{
+        background: #FFFFFF;
+    }
+    #jd a{
+        display: block;
+        position: absolute;
+        top: 230px;
+        width: 50px;
+        height: 30px;
+        background: #b4b4b4;
+    }
+  #left{
+      left: 0;
+    }
+    #right{
+        right: 0;
+    }
+</style>
+<script>
+    window.onload=function () {
+        var oJd=document.getElementById('jd');
+        var oSpan=oJd.getElementsByTagName('span');
+        var oDiv=oJd.getElementsByTagName('div');
+        var oLeft=document.getElementById('left');
+        var oRight=document.getElementById('right');
+
+        var iright='0';
+// definition
+        function same() {
+            for (var i=0; i<oSpan.length;i++) {
+                oSpan[i].className='';
+                oDiv[i].className='';
+            }
+            oSpan[iright].className='point';
+            oDiv[iright].className='photo';
+        }
+// point onmouseover
+        for (var i=0; i<oSpan.length;i++){
+            oSpan[i].indext=i;
+            oSpan[i].onmouseover=function () {
+               iright= this.indext;
+              same();
+            }
+        }
+// rise
+        oRight.onclick=function () {
+            iright++;
+            if ( iright>oSpan.length-1)iright=0;
+            same();
+        };
+// next
+        oLeft.onclick=function () {
+            iright--;
+            if ( iright<0)iright=oSpan.length -1;
+            same();
+        };
+// jd setInterval
+       var ban = setInterval( function(){
+            iright++;
+            if ( iright>oSpan.length-1)iright=0;
+            same();
+        },1000);
+// stop
+        oJd.onmouseover=function () {
+            clearInterval(ban)
+        };
+// move
+        oJd.onmouseout=function () {
+            ban=setInterval( function(){
+                iright++;
+                if ( iright>oSpan.length-1)iright=0;
+                same();
+            },1000);
+        };
+ // jd end
+    }
+</script>
+<body>
+<div id="jd">
+
+    <a id="left" href="javascript:;"></a>
+    <a  id="right" href="javascript:;"></a>
+    <p>
+        <span class="point"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </p>
+    <div class="photo"><img src="../images/first.jpg" alt=""></div>
+    <div><img src="../images/two.jpg" alt=""></div>
+    <div><img src="../images/three.jpg" alt=""></div>
+    <div><img src="../images/four.jpg" alt=""></div>
+    <div><img src="../images/five.jpg" alt=""></div>
+    <div><img src="../images/six.jpg" alt=""></div>
+    <div><img src="../images/seven.jpg" alt=""></div>
+    <div><img src="../images/eight.jpg" alt=""></div>
+</div>
+
+</body>
+</html>
