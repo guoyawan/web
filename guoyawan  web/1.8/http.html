@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <style>
+        input {
+            width: 100px;
+            height: 50px;
+        }
+
+        #btn {
+            position: fixed;
+            top: 200px;
+            left: 500px;
+        }
+
+        html {
+            height: 8000px;
+            width: 3000px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBtn = document.getElementById('btn'),
+                oBtn1 = document.getElementById('btn1');
+
+               alert(window.location.pathname);
+               ///guoyawan%20%20web/1.8/http.html
+               //当前url的路径部分;
+
+               alert(window.location.hash);
+               //
+               //  url中#后面的内容;
+
+               alert(window.location.href);
+               //http://localhost:8080/guoyawan%20%20web/1.8/http.html?_ijt=98u8m7smauuhc0qotv0m9v1at2
+               //整个url;
+
+               alert(window.location.search);
+               //?_ijt=98u8m7smauuhc0qotv0m9v1at2
+               //url中?后面的内容;
+
+               alert(window.location.host);
+               //localhost:8080
+               // 主机名和当前URL的端口号;
+
+               alert(window.location.origin);
+               //http://localhost:8080
+
+               alert(window.location.hostname);
+               //localhost
+               //当前url的主机名;
+
+               alert(window.location.protocol);
+               //http:
+               //当前url的协议
+
+               // alert('1');
+               setInterval(function () {
+                   window.location.reload();//每隔1秒刷新一次页面
+               },1000);
+
+               var i=0;
+               window.onscroll=function () {
+                   document.title= i++;//滚动滚动条时改变title，用赋的值i++改变
+               };
+
+               window.onresize=function () {
+                   document.title= i++;//窗口变大缩小时改变title，用赋的值i++改变
+               };
+
+            // oBtn.onclick=function () {
+            //     window.open('https://www.baidu.com/','_black')//在新页面打开
+            // };
+
+            oBtn.onclick=function () {
+                window.open('https://www.baidu.com/','_self')//在当前页面打开
+            };
+
+               oBtn1.onclick=function () {
+                   window.close();//Firefox火狐 脚本只能关闭脚本自己打开的网页
+               };
+
+               oBtn.onclick=function () {
+                 this.setAttribute('ium',1) ;//添加属性
+                 alert(this.getAttribute('ium'));//获取属性
+               };
+            oBtn.onclick = function () {
+                alert(document.documentElement.scrollLeft);//被滚动条卷去的宽度
+                alert(document.documentElement.scrollTop);//被滚动条卷去的高度
+                alert(document.documentElement.clientHeight);//当前窗口可视区的高度
+                alert(document.documentElement.clientWidth);//当前窗口可视区的宽度
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+<input type="button" id="btn" value="打开新窗口">
+<input type="button" id="btn1" value="关闭窗口">
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 截取文件后缀名txt
+        var str='abcdefg.png.jpg';
+        var arr=str.split('.');/*从.处切割，数据放入arr数组里中*/
+        var str1=arr[arr.length-1];/*从数组arr里拿出最后一个数据*/
+        console.log(str1);
+        //第二种
+        var substr='abcdefg.png.jpg';
+        console.log(substr.substring(substr.lastIndexOf('.')+1));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

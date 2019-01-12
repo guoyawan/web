@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        /*闭包，子函数可以使用父函数的局部变量*/
+        function fn() {
+            a=12; /*局部变量只能被子函数调用一次*/
+            function fn1() {
+                a++;
+                console.log(a);/*打印a*/
+            }
+            fn1(); /*调用fn1*/
+        }
+        fn();/*13*/
+
+
+        function fnn() {
+            a=0; /*局部变量只能被子函数调用一次*/
+            function fnn1() {
+                a++;
+                console.log(a);/*打印a*/
+            }
+           return fnn1(); /*调用fn1*/
+        }
+
+        var i=fnn;
+        fnn();/*1*/
+        fnn();/*1*/
+        fnn();/*1*/
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

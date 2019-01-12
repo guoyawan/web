@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea name="text" id="txt" cols="30" rows="10"></textarea>
+<input type="button" id="run" value="run">
+<script>
+        var oTxt = document.getElementById('txt');
+        var oBtn = document.getElementById('run');
+
+        oBtn.onclick = function () {
+            var win = window.open('about:blank');
+            win.document.write(oTxt.value)
+        }
+
+</script>
+
+</body>
+</html>

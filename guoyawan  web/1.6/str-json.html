@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 要求返回结果为： {name: 'even', age: '20', sex: 'woman'};
+      var str='name=even&age=20&sex=woman';
+
+      var json={};
+
+      var arr=str.split('&');/*从&切割 放入arr组合里*/
+
+     for(var i=0;i<arr.length;i++){/*for循环*/
+           var arr1=arr[i].split('=');/*从=切割放入arr1组合*/
+           json[arr1[0]]=arr1[1];/*放入json数组里*/
+     }
+        console.log(json);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

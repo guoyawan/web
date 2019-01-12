@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #txt {
+            width: 300px;
+            height: 30px;
+            margin-left: 200px;
+            font-size: 20px;
+            border: none;
+            border: skyblue 2px solid;
+            float: left;
+        }
+
+        #btn {
+            width: 50px;
+            height: 34px;
+            float: left;
+            margin-left: 5px;
+            background: powderblue;
+            border: none;
+            font-weight: bold;
+            border: skyblue 2px solid;
+            color: #7e7f7e;
+        }
+
+        body {
+            background: lightblue;
+        }
+        div{
+            margin-top:40px;
+            width: 100%;
+            float: left;
+            margin-left: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+<input type="text" id="txt" />
+<input type="button" id="btn" value="发送">
+<div id="div"></div>
+<script>
+        var oTxt = document.getElementById('txt'),
+            oBtn = document.getElementById('btn'),
+            oDiv = document.getElementById('div');
+
+        oBtn.onclick=function () {//添加点击事件
+            if (oTxt.value=='') {
+                alert('留言空');}else
+                var oP=document.createElement('p');//创造一个新元素
+            var oA=document.createElement('a');//创造一个新元素
+            oA.innerHTML='[删除]';//a元素的内容
+            oP.innerHTML=oTxt.value;//p标签元素的内容
+            oDiv.insertBefore(oP,oDiv.children[0]);//在div里的最前面添加元素p
+            oP.appendChild(oA);//在每个p标签的最后添加a
+            oTxt.value='';//input的内容为空
+            oA.onclick=function () {//添加点击事件
+                if ( confirm('你确定要删除了魔')) {//提示信息
+                    oDiv.removeChild(oP);//删除p标签
+                }
+            }
+
+
+
+    }
+</script>
+
+</body>
+</html>

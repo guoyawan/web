@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script>
+        function show() {
+          return function (){
+                alert('even')
+              // return 1;  /*return后面的代码都不会在执行了呢*/
+            };
+        }
+        alert(show()); /*函数立即执行  弹所有*/
+        alert(show()());/* even undefined 匿名函数自调用（直接用括号调用） 函数为空返回值默认为undefined*/
+     /**/   alert(show()());/*even 1 返回值为1（定义了返回值）*/
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

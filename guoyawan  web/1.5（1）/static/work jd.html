@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .jd{
+        height: 470px;
+        width: 590px;
+        position: relative;
+        margin: 150px 650px;
+        float: left;
+    }
+    .jd div{
+        height: 470px;
+        width: 590px;
+        display: none;
+    }
+    .jd div.photo{
+        display: block;
+    }
+    .jd p{
+        position: absolute;
+        left: 30px;
+        bottom: 20px;
+    }
+    .jd p span{
+        display: block;
+        width: 10px;
+        height: 10px;
+        border: ghostwhite 2px solid;
+        border-radius: 50%;
+        float: left;
+        margin-left: 15px;
+    }
+    .jd p span.point{
+        background: #FFFFFF;
+    }
+    .jd a{
+        display: block;
+        position: absolute;
+        top: 230px;
+        width: 50px;
+        height: 30px;
+        background: #b4b4b4;
+    }
+  .left{
+      left: 0;
+    }
+    .right{
+        right: 0;
+    }
+    /*.jd p span.point1{*/
+        /*border: #1b1b1d 5px solid;*/
+    /*}*/
+</style>
+
+<script>
+    window.onload=function () {/*窗口后读*/
+
+        var oJd = document.getElementById('jd');/*获取id*/
+        var oSpan = oJd.getElementsByTagName('span');/*获取id中的一组标签*/
+        var oDiv = oJd.getElementsByTagName('div');/*获取id中的一组标签*/
+
+        var iok = 0;
+
+        for (var i = 0; i < oSpan.length; i++) {
+            oSpan[i].index=i;
+            ( function(b){
+            oSpan[i].onclick = function () {
+                iok =b;
+                for (var i = 0; i < oSpan.length; i++) {
+                    oSpan[i].className = '';
+                    oDiv[i].className = '';
+                }
+                oSpan[b].className = 'point';
+                oDiv[b].className = 'photo';
+            }
+            })(i);
+        }
+
+       function tag() {
+           for (var i = 0; i < oSpan.length; i++) {
+               oSpan[i].className = '';
+               oDiv[i].className = '';
+           }
+           oSpan[iok].className = 'point';
+           oDiv[iok].className = 'photo';
+       }
+
+        var timer=setInterval(function () {
+           iok++;
+           if(iok>oSpan.length-1)iok=0;
+            tag();
+        },1000)
+    }
+
+
+
+</script>
+
+<body>
+<div class="jd" id="jd">
+    <p>
+        <span class="point"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </p>
+    <div class="photo"><img src="../images/first.jpg" alt=""></div>
+    <div><img src="../images/two.jpg" alt=""></div>
+    <div><img src="../images/three.jpg" alt=""></div>
+    <div><img src="../images/four.jpg" alt=""></div>
+    <div><img src="../images/five.jpg" alt=""></div>
+    <div><img src="../images/six.jpg" alt=""></div>
+    <div><img src="../images/seven.jpg" alt=""></div>
+    <div><img src="../images/eight.jpg" alt=""></div>
+
+</div>
+
+
+</body>
+</html>

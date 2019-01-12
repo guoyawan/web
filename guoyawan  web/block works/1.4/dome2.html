@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var a=12;  /*全局变量*/
+        function fn() {
+            alert(a);
+        }
+        fn();  /*12*/
+        alert(a);/*12*/
+
+
+        function fn1() {
+            var b =12;  /*局部变量*/
+            alert(b);
+        }
+        fn1(); /*12*/
+        alert(b); /* b is not defined    函数b未定义报错*/
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

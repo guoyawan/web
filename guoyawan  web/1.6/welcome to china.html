@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 三个单词首字母转换成大写  返回：Welcome To China
+        var str = 'welcome to china';/*定义一个变量，并赋值*/
+
+        var arr=str.split(' ');/*从空格处切割*/
+
+        var arr1=[ ];/*定义一个数组*/
+
+        for (var i=0;i<arr.length;i++) {/*for循环  同时操作三个单词*/
+            arr1.push(arr[i].charAt(0).toUpperCase() +arr[i].substr(1)/*切割后面剩下的字符*/
+            )/*arr1数组后面加一个字符、数字等*/
+        }
+        var str1=arr1.join(' ');/*用空格连接arr1里面的数组*/
+        alert(str1);/*弹出数组*/
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

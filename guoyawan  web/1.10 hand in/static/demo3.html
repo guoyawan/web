@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        li {
+            list-style: none;
+            width: 300px;
+            height: 400px;
+            float: left;
+            margin: 10px;
+            border: #000 1px solid;
+            font-family: "Microsoft YaHei";
+        }
+
+        li p {
+            width: 300px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 30px;
+            background: #ececec;
+            margin: 0;
+        }
+
+        li p span {
+            padding-left: 20px;
+        }
+
+        li p em {
+            float: right;
+            font-style: normal;
+            margin-right: 10px;
+        }
+
+        li img {
+            display: block;
+            width: 300px;
+            height: 360px;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="从低到高" id="btn1">
+<input type="button" value="从高到低" id="btn2">
+<ul id="box"></ul>
+<script>
+    var oBox = document.getElementById('box');
+    var oBtn1 = document.getElementById('btn1');
+    var oBtn2 = document.getElementById('btn2');
+    var arr = [
+        {
+            name: 'Nike',
+            img: 'nike.jpg',
+            price: '358'
+        },
+        {
+            name: 'adidas',
+            img: 'adidas.jpg',
+            price: '698'
+        },
+        {
+            name: 'Anta',
+            img: 'anta.jpg',
+            price: '198'
+        },
+        {
+            name: 'uniqlo',
+            img: 'uniqlo.jpg',
+            price: '148'
+        },
+        {
+            name: 'HLA',
+            img: 'hla.jpg',
+            price: '188'
+        }
+    ];
+
+    function creat() {
+        for (var i = 0; i < arr.length; i++) {
+            var oLi = document.createElement('li');
+            oBox.appendChild(oLi);
+            var oImg = document.createElement('img');
+            oImg.src = "../" + arr [i].img;
+            oLi.appendChild(oImg);
+            var oP = document.createElement('p');
+            oLi.appendChild(oP);
+            var oSpan = document.createElement('span');
+            oP.appendChild(oSpan);
+            oP.innerHTML = arr [i].name;
+            var oEm = document.createElement('em');
+            oP.appendChild(oEm);
+            oEm.innerHTML = arr [i].price;
+        }
+    }
+
+    creat();
+
+    oBtn1.onclick = function () {
+        oBox.innerHTML = '';
+        arr.sort(function (n, m) {
+            return n.price - m.price;
+        });
+        creat();
+    };
+    oBtn2.onclick = function () {
+        oBox.innerHTML = '';
+        arr.sort(function (n, m) {
+            return m.price - n.price;
+        });
+        creat();
+    }
+
+</script>
+</body>
+</html>

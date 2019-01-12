@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 要求返回结果为：name=even&age=20&sex=woman;
+        var json={
+            name: 'even',
+            age: '20',
+            sex: 'woman'
+        };
+        var arr=[];
+        for (var m in json) {/*for in循环*/
+            arr.push((m)+'='+(json[m]));
+        }
+      console.log(arr.join('&'));
+    </script>
+</head>
+<body>
+
+</body>
+</html>

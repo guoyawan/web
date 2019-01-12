@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // <!--json用来储存多个数据-->
+        // json键值对的形式 键值对成对出现
+        // json没有length 不能使用for循环
+
+        var json={
+            name:'Even',/*正确书写方法 "name":"Even",*/
+            age:23,
+        };
+
+        alert(json.name);/*弹出当前name值*/
+        json.name='GuoYaWan';/*改变一条属性 名字*/
+        json.mob='13462678805';/*增加一条属性 电话*/
+        delete json.age;/*删除一条属性 年龄*/
+        console.log(json);/*打印当前json*/
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

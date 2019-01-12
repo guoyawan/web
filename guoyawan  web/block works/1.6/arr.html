@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*数组可以放任何类型的数据；数组用来储存多条数据；多条数据间用逗号隔开；*/
+        var arr = [1, 42, 3, 26, 5];/*数组*/
+        var arr1 = [1, 1, 12];
+
+        arr.push(6);/*数组后面加一个字符、数字等*/
+        console.log(arr);/*打印arr数组*/
+
+        arr.pop();/*数组后面减一个字符、数字等*/
+        console.log(arr);/*打印arr数组*/
+
+        arr.shift();/*数组前面减一个字符、数字等*/
+        console.log(arr);/*打印arr数组*/
+
+        arr.unshift(0);/*数组前面加一个字符、数字等*/
+        console.log(arr);/*打印arr数组*/
+
+        arr.join('->');/*各个数组数组的连接方式  数字加连接符变string*/
+        console.log(arr);/*打印arr数组*/
+
+        arr.reverse();/*反转 1.2.3.4.5变成5,4,3,2,1*/
+        console.log(arr.length + ':' + arr.join('-'));/*打印arr数组*/
+
+        arr.sort();/*排序  按照数字的第一位排序*/
+        console.log(arr);/*打印*/
+
+        arr.sort(function (a, b) {
+            return a - b;/*从小到大*/
+            // return b - a;/*从大到小*/
+        });/*排序*/
+        console.log(arr);/*打印*/
+
+        var arr2 = [];
+        arr2 = arr2.concat(arr1, arr);/*添加一个数组 理论上可添加多个*/
+        console.log(arr2);/*打印*/
+
+        arr = arr.concat(arr1);/*添加一个数组 理论上可添加多个*/
+        console.log(arr);/*打印*/
+
+        arr.splice(1,2,'a','b');/*第二个位置起删除两个数字  增加'a','b',两个字符*/
+        console.log(arr);/*打印*/
+
+        arr.splice(0,3);/*第一个位置起删除三个数字 */
+        console.log(arr);/*打印*/
+
+        arr.splice(0,0,'Even');/*第一个位置起删除0个数字  增加'Even',一个字符*/
+        console.log(arr);/*打印*/
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

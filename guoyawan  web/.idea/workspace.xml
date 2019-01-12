@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/block works/12.31/text1.html" line="8" />
+    <bookmark url="file://$PROJECT_DIR$/1.8/http.html" line="43" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="57a0fc29-ef51-48a8-a54c-3f9588126cf5" name="默认更改列表" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -12,44 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/12.15 100/static/percent.html">
+        <entry file="file://$PROJECT_DIR$/block works/static/if  judge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2526">
-              <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#6;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#9;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12.15 100/js/percent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1443">
-              <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="405">
+              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -66,33 +38,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/block works/12.27.html" />
-        <option value="$PROJECT_DIR$/12.27/static/class.html" />
+        <option value="$PROJECT_DIR$/block works/1.4/json arr.html" />
+        <option value="$PROJECT_DIR$/block works/1.4/json arr1.html" />
+        <option value="$PROJECT_DIR$/1.5/static/work jd.html" />
+        <option value="$PROJECT_DIR$/1.5/static/jd.html" />
+        <option value="$USER_HOME$/Desktop/2019-1-5/code/demo.html" />
+        <option value="$PROJECT_DIR$/block works/1.6/str.html" />
+        <option value="$PROJECT_DIR$/1.6/work.html" />
+        <option value="$PROJECT_DIR$/1.6/json.html" />
+        <option value="$PROJECT_DIR$/1.6/str-json.html" />
+        <option value="$PROJECT_DIR$/block works/1.7/arr.works.html" />
+        <option value="$PROJECT_DIR$/block works/1.7/0.html" />
+        <option value="$PROJECT_DIR$/block works/12.31/text1.html" />
+        <option value="$PROJECT_DIR$/work.html" />
+        <option value="$PROJECT_DIR$/1.6/arr.html" />
+        <option value="$PROJECT_DIR$/1.6/jpg.html" />
+        <option value="$PROJECT_DIR$/1.6/json-str.html" />
+        <option value="$PROJECT_DIR$/1.6/welcome to china.html" />
+        <option value="$PROJECT_DIR$/js.test.html" />
         <option value="$PROJECT_DIR$/block works/static/12.27.html" />
-        <option value="$PROJECT_DIR$/12.15/static/percent.html" />
-        <option value="$PROJECT_DIR$/12.26/static/work jd.html" />
-        <option value="$PROJECT_DIR$/12.15/js/percent.js" />
-        <option value="$PROJECT_DIR$/12.15/css/percent.css" />
-        <option value="$PROJECT_DIR$/12.26 jd/static/12.28.html" />
-        <option value="$PROJECT_DIR$/12.27/static/work.html" />
-        <option value="$PROJECT_DIR$/12.26 jd/static/work jd.html" />
-        <option value="$PROJECT_DIR$/block works/static/12.28.html" />
-        <option value="$PROJECT_DIR$/12.28/fish.html" />
+        <option value="$PROJECT_DIR$/1.7number/dable qq.html" />
+        <option value="$PROJECT_DIR$/1.5（1）/static/work jd.html" />
+        <option value="$PROJECT_DIR$/1.7number/number.html" />
+        <option value="$PROJECT_DIR$/block works/static/switch18.12.30.html" />
+        <option value="$PROJECT_DIR$/1.8/ie.html" />
+        <option value="$PROJECT_DIR$/1.8/confirm.html" />
+        <option value="$PROJECT_DIR$/1.8work hand in/cliner.html" />
+        <option value="$PROJECT_DIR$/1.8/http.html" />
+        <option value="$PROJECT_DIR$/1.8work hand in/static/clinet.html" />
+        <option value="$PROJECT_DIR$/bizhi/bawei.html" />
+        <option value="$PROJECT_DIR$/1.10/dom.html" />
+        <option value="$PROJECT_DIR$/1.10/position.html" />
+        <option value="$PROJECT_DIR$/1.10 hand in/position.html" />
+        <option value="$PROJECT_DIR$/1.10/ade.html" />
+        <option value="$PROJECT_DIR$/1.10 hand in/languages.html" />
+        <option value="$PROJECT_DIR$/1.10 hand in/demo3.html" />
+        <option value="$PROJECT_DIR$/1.10 hand in/static/position.html" />
+        <option value="$PROJECT_DIR$/1.10 hand in/static/demo3.html" />
+        <option value="$PROJECT_DIR$/1.11/1.11.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/10w.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/1.11.html" />
+        <option value="$PROJECT_DIR$/1.10 hand in/static/languages.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/code.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/11.11dome.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/static/11.11dome.html" />
+        <option value="$USER_HOME$/Desktop/demo2.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/static/1.11.html" />
+        <option value="$PROJECT_DIR$/block works/1.12/for.html" />
+        <option value="$PROJECT_DIR$/block works/12.31/time.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/static/test.html" />
+        <option value="$PROJECT_DIR$/block works/1.11/static/work.zhao.html" />
         <option value="$PROJECT_DIR$/block works/static/12.29.html" />
-        <option value="$PROJECT_DIR$/12.28/static/fish.html" />
-        <option value="$PROJECT_DIR$/12.15 100/static/percent.html" />
-        <option value="$PROJECT_DIR$/12.15 100/css/percent.css" />
-        <option value="$PROJECT_DIR$/block works/static/12.30.html" />
-        <option value="$PROJECT_DIR$/12.15 100/js/percent.js" />
-        <option value="$PROJECT_DIR$/block works/static/for.html" />
-        <option value="$PROJECT_DIR$/block works/static/switch.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="298" />
-    <option name="y" value="64" />
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="330" />
+    <option name="y" value="53" />
+    <option name="width" value="1100" />
     <option name="height" value="780" />
   </component>
   <component name="ProjectView">
@@ -100,6 +103,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="guoyawan  web" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -110,30 +124,19 @@
             <path>
               <item name="guoyawan  web" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoyawan  web" type="462c0819:PsiDirectoryNode" />
-              <item name="12.15 100" type="462c0819:PsiDirectoryNode" />
+              <item name="block works" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoyawan  web" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoyawan  web" type="462c0819:PsiDirectoryNode" />
-              <item name="12.15 100" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="block works" type="462c0819:PsiDirectoryNode" />
+              <item name="1.7" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guoyawan  web" type="b2602c69:ProjectViewProjectNode" />
               <item name="guoyawan  web" type="462c0819:PsiDirectoryNode" />
-              <item name="12.15 100" type="462c0819:PsiDirectoryNode" />
+              <item name="block works" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope '项目文件'; set:项目文件; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="guoyawan  web" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -147,14 +150,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\guoyawan  web\block works\1.11" />
+      <recent name="C:\wamp64\www\guoyawan  web\block works\1.11\static" />
+      <recent name="C:\wamp64\www\guoyawan  web\1.10 hand in" />
+      <recent name="C:\wamp64\www\guoyawan  web\1.8work hand in\images" />
+      <recent name="C:\wamp64\www\guoyawan  web\block works" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\guoyawan  web\block works\img" />
-      <recent name="C:\wamp64\www\guoyawan  web" />
-      <recent name="C:\wamp64\www\guoyawan  web\12.28\images" />
-      <recent name="C:\wamp64\www\guoyawan  web\12.28\static" />
-      <recent name="C:\wamp64\www\guoyawan  web\block work\staitic" />
+      <recent name="C:\wamp64\www\guoyawan  web\block works" />
+      <recent name="C:\wamp64\www\guoyawan  web\1.10 hand in\static" />
+      <recent name="C:\wamp64\www\guoyawan  web\bizhi" />
+      <recent name="C:\wamp64\www\guoyawan  web\1.8work hand in\images" />
+      <recent name="C:\wamp64\www\guoyawan  web\1.8work hand in\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,18 +210,43 @@
       <workItem from="1546133996771" duration="19228000" />
       <workItem from="1546165067145" duration="1411000" />
       <workItem from="1546167458801" duration="1386000" />
+      <workItem from="1546218090073" duration="16593000" />
+      <workItem from="1546565013522" duration="24728000" />
+      <workItem from="1546651810025" duration="7918000" />
+      <workItem from="1546665206418" duration="20233000" />
+      <workItem from="1546746926724" duration="93000" />
+      <workItem from="1546747066615" duration="695000" />
+      <workItem from="1546759008519" duration="1623000" />
+      <workItem from="1546765916305" duration="2075000" />
+      <workItem from="1546822340614" duration="2108000" />
+      <workItem from="1546824895968" duration="2926000" />
+      <workItem from="1546828397815" duration="14062000" />
+      <workItem from="1546853074853" duration="3559000" />
+      <workItem from="1546858384962" duration="3044000" />
+      <workItem from="1546907950993" duration="22901000" />
+      <workItem from="1546941449873" duration="913000" />
+      <workItem from="1546995780337" duration="1705000" />
+      <workItem from="1546999090499" duration="19470000" />
+      <workItem from="1547026549304" duration="2856000" />
+      <workItem from="1547031880182" duration="643000" />
+      <workItem from="1547082725269" duration="24055000" />
+      <workItem from="1547122427996" duration="82000" />
+      <workItem from="1547122548876" duration="3503000" />
+      <workItem from="1547168751103" duration="26916000" />
+      <workItem from="1547258139921" duration="5802000" />
+      <workItem from="1547265805697" duration="9940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106651000" />
+    <option name="totallyTimeSpent" value="325094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.30885416" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12135417" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.329718" />
@@ -218,7 +254,7 @@
       <window_info anchor="bottom" id="调试" order="3" />
       <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -232,65 +268,35 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>郭雅婉</expression-string>
+        <language-id>HTML</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>1</expression-string>
+        <language-id>HTML</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/block works/css/huadong.css">
+    <entry file="file://$PROJECT_DIR$/guoyawan12.1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="1" selection-end-column="2" />
+        <state relative-caret-position="-3585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.7number/dable qq.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.6/static/automobile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="5" column="71" lean-forward="true" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block works/static/12.27.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.15/images/right_09.png" />
-    <entry file="file://$PROJECT_DIR$/12.15/images/right_13.jpg" />
-    <entry file="file://$PROJECT_DIR$/12.15/images/right_06.png" />
-    <entry file="file://$PROJECT_DIR$/12.15/images/play.png" />
-    <entry file="file://$PROJECT_DIR$/12.15/images/lggs4.png" />
-    <entry file="file://E:/mr.zhao file/2018-12-27/code/demo3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.15/css/percent.css" />
-    <entry file="file://$PROJECT_DIR$/12.15/static/percent.html" />
-    <entry file="file://$PROJECT_DIR$/12.15/js/percent.js" />
-    <entry file="file://$PROJECT_DIR$/12.26/static/work jd.html" />
-    <entry file="file://$PROJECT_DIR$/12.7/td.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.27/static/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.26 jd/static/12.28.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block works/img/fish.PNG">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/block works/static/12.28.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -299,137 +305,273 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/block works/img/nanji_03.png">
+    <entry file="file://$PROJECT_DIR$/12.28/static/fish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.27/static/work.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/class1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/class2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/huadong-.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12.26 jd/static/12.28.html" />
+    <entry file="file://$PROJECT_DIR$/12.26 jd/static/work jd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2293" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jd/12.26 jd/static/work jd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2112" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.8work hand in/images/BOM.txt" />
+    <entry file="file://$PROJECT_DIR$/1.8/http.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="61" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.8/ie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.8/confirm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bizhi/bawei.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.10/dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.10/ade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019-1-10/code/demo16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-649" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019-1-10/code/demo18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019-1-10/code/demo17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-924" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/2019-1-10/code/demo10.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/code/demo2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/code/demo3.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.10 hand in/anta.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/block works/img/email.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/1.10/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/block works/img/arrow.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/1.7number/number.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.10 hand in/static/position.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/1.11/10w.html" />
+    <entry file="file://$PROJECT_DIR$/block works/1.11/1.11.html" />
+    <entry file="file://$PROJECT_DIR$/block works/1.11/code.html" />
+    <entry file="file://$PROJECT_DIR$/block works/1.11/11.11dome.html" />
+    <entry file="file://$PROJECT_DIR$/block works/1.11/static/1.11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.10 hand in/static/demo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.8work hand in/static/clinet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="54" column="32" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.10 hand in/static/languages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/demo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/1.12/for.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/12.31/time.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/1.11/static/work.zhao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="117" column="21" selection-start-line="117" selection-start-column="21" selection-end-line="117" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/1.11/static/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="110" column="36" lean-forward="true" selection-start-line="110" selection-start-column="36" selection-end-line="110" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/1.11/static/11.11dome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="25" column="12" lean-forward="true" selection-end-line="190" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/1.7/arr.works.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/12.27.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/12.24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="36" column="7" lean-forward="true" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/class3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block works/static/class.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-291" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/block works/static/12.29.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="40" column="51" lean-forward="true" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+        <state relative-caret-position="426">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="43" selection-end-line="50" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/block works/img/kaola.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block works/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.28/static/fish.html">
+    <entry file="file://$PROJECT_DIR$/block works/static/switch18.12.30.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/mr.zhao file/2018-12-29/code/demo6.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891" />
-      </provider>
-    </entry>
-    <entry file="file://E:/mr.zhao file/2018-12-29/code/demo11.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/mr.zhao file/2018-12-29/code/demo10.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://E:/mr.zhao file/2018-12-29/code/demo9.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="76" column="13" lean-forward="true" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/mr.zhao file/2018-12-29/code/demo8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-726" />
-      </provider>
-    </entry>
-    <entry file="file://E:/mr.zhao file/2018-12-29/code/demo7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.15 100/images/15.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.26 jd/static/work jd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="113" column="40" lean-forward="true" selection-start-line="113" selection-start-column="40" selection-end-line="113" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.15 100/css/percent.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="736" column="11" selection-start-line="736" selection-start-column="11" selection-end-line="736" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block works/static/switch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/2018-12-30 1/code/demo23.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" selection-start-line="8" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="-667">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/block works/static/if  judge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="405">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12.15 100/js/percent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1443">
-          <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/12.15 100/static/percent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2526">
-          <caret line="40" column="6" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#6;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#6;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#8;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#9;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#7;n#div#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

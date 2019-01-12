@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        li {
+            list-style-type: none;
+            height: 50px;
+            width: 50px;
+            background: orangered;
+            border-radius: 50%;
+            float: left;
+            margin-left: 100px;
+            margin-top: 30px;
+            line-height: 50px;
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+        }
+
+        input {
+            width: 200px;
+            height: 50px;
+            margin-left: 100px;
+            margin-top: 30px;
+        }
+
+    </style>
+
+    <script>
+        window.onload = function () {
+            var oUl = document.getElementById('ul'),
+                oBtn = document.getElementById('btn');
+            var oLi = oUl.getElementsByTagName('li');
+
+            var timer = null;
+
+            function rod(n, m) {
+                return parseInt(Math.random() * (m - n) + n);//取整
+            }
+
+            function need(a, arr) {
+                for (var i = 0; i < arr.length; i++) {
+                    if (a === arr[i]) {
+                        return false;//重复了返回假
+                    }
+                }
+                return true;//不重复了返回真
+            }
+
+            function addZero(b) {
+                return b < 10 ? '0' + b : '' + b;//三目
+            }
+
+            function tag() {
+                var arr = [];
+                while (arr.length <6) {
+                    n = rod(1, 35);
+                    if (need(addZero(n), arr)) {
+                        arr.push(addZero(n));
+                    }
+                }
+                for (var i = 0; i < oLi.length; i++) {
+                    oLi[i].innerHTML = arr[i];
+                }
+            }
+
+            tag();
+            oBtn.onclick = function () {
+                clearInterval(timer);
+                timer = setInterval(function () {
+                    tag();
+                }, 10);
+                setTimeout(function () {
+                    clearInterval(timer);
+                }, 200)
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+
+<ul id="ul">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<input type="button" id="btn" value="点我随机刷新数字">
+
+</body>
+</html>

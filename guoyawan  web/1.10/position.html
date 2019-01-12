@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #box {
+            width: 500px;
+            height: 500px;
+            background: #000;
+            position: absolute;
+            top: 200px;
+            left: 400px;
+        }
+
+        #box1 {
+            width: 300px;
+            height: 300px;
+            background: #fffeee;
+        }
+
+        #box2 {
+            width: 200px;
+            height: 200px;
+            background: #f4b317;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oBox = document.getElementById('box'),
+                oBox1 = document.getElementById('box1'),
+                oBox2 = document.getElementById('box2');
+
+            // alert(oBox2.offsetParent.id);//
+
+
+            function tag(obj) {
+                var t = 0;
+                var l = 0;
+
+                while (obj) {
+
+                    l += obj.offsetLeft;
+                    t += obj.offsetTop;
+
+                    obj =obj.offsetParent;
+
+
+                }
+                return {left: l, top: t}
+            }
+
+            console.log(tag(oBox2).left);
+
+        }
+
+    </script>
+</head>
+<body>
+<div id="box">
+    <div id="box1">
+        <div id="box2"></div>
+    </div>
+</div>
+</body>
+</html>

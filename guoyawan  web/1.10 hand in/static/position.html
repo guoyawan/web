@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h1{
+            height:30px;
+            width: 500px;
+            color: #1b1b1d;
+            line-height: 30px;
+            text-align: left;
+            font-size: 25px;
+            margin-bottom: 100px;
+        }
+        #tit2{
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 200px;
+        }
+        p{
+            margin-top: 10px;
+            width: 500px;
+            line-height: 30px;
+            font-size: 18px;
+            height: 400px;
+            text-indent: 2em;
+        }
+        div{
+            margin: 20px 200px;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+       var oTit1=document.getElementById('tit1');
+       var oTit2=document.getElementById('tit2');
+      window.onscroll=function () {//滚动滚轮
+          if (oTit1.offsetTop<=document.documentElement.scrollTop) {//判断oTit1的top值与滚轮卷上去的高度的大小
+            oTit2.style.display='block';//让oTit2的显示
+          }else if (oTit1.offsetTop>document.documentElement.scrollTop){//判断oTit1的top值与滚轮卷上去的高度的大小
+              oTit2.style.display='none';//让oTit2的消失
+              oTit1.style.display='black';//让oTit1的显示
+          }
+      }
+        }
+    </script>
+</head>
+<body>
+<div>
+
+    <p>
+        《灿烂千阳》是美籍阿富汗裔作家卡勒德·胡赛尼的第二本小说，出版之前即获得极大关注，2007年5月22日在美国首发，上市仅一周销量就突破100万册，赢得评论界一致好评，被很多评论家赞誉为“超越《追风筝的人》的伟大作品”。这次胡塞尼将关注焦点放在阿富汗妇女身上，小说讲述了两个阿富汗妇女的不幸故事，个人要忍耐饥饿、病痛的约束。家庭要承受战争的创伤、难民的流离失所。国家要忍耐前苏联、塔利班与美国的战争.
+    </p>
+
+    <h1 id="tit1">请不要滑动滚轮,停下来读读自己怎么样？</h1>
+    <h1 id="tit2">请不要滑动滚轮,停下来读读自己怎么样？</h1>
+
+    <p>
+        《一个叫欧维的男人决定去死》是2015年12月四川文艺出版社出版的图书，作者是（瑞典）弗雷德里克·巴克曼。主要讲述了认识一下欧维。他59岁，脾气古怪，嫌东嫌西，带着坚不可摧的原则、每天恪守的常规以及随时发飙的脾性在社区晃来晃去，被背地里称为“地狱来的恶邻”。
+    </p>
+
+    <p>
+        《追风筝的人》是派拉蒙公司于2007年发行的剧情片。该剧改编自卡勒德·胡赛尼同名小说。由马克·福斯特执导，赫立德·阿卜杜拉、阿托莎·利奥妮、肖恩·托布、萨伊德·塔格马奥等人主演。影片讲述了发生在两个阿富汗少年阿米尔和哈桑身上的故事。梦魇一样的经历使阿米尔移民美国，当他面对一个抛开罪恶感，重新找回那个善良纯真的自我的机会，会如何选择。
+    </p>
+
+    <p>
+        《人类简史》是2014年11月中信出版社出版发行的图书，作者是[以色列]尤瓦尔·赫拉利。 该书在2012年以希伯来文出版，然后很快就被翻译成近30种文字，不仅为全球学术界所瞩目，而且引起了一般公众的广泛兴趣。
+    </p>
+
+    <p>
+        《群山回唱》讲述了一对兄妹因贫穷和战争铸成的六十年悲欢离合。围绕父母、兄妹、甚至表亲和继母，他们如何去爱，如何被伤害，如何相互背叛，如何为彼此牺牲。
+    </p>
+
+    <p>
+        《月亮和六便士》是英国小说家威廉·萨默赛特·毛姆的创作的长篇小说，成书于1919年。作品以法国印象派画家保罗·高更的生平为素材，描述了一个原本平凡的伦敦证券经纪人思特里克兰德，突然着了艺术的魔，抛妻弃子，绝弃了旁人看来优裕美满的生活，奔赴南太平洋的塔希提岛，用圆笔谱写出自己光辉灿烂的生命，把生命的价值全部注入绚烂的画布的故事。
+    </p>
+
+</div>
+
+</body>
+</html>

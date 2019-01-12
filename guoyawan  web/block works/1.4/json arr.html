@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var arr=[1,2,3,4,5];
+        for(var x in arr){
+            alert(arr[x]);/*1,2,3,4,5*/
+            alert(x);/*0,1,2,3,4 length*/
+        };
+        var json={
+            name/*(key)*/:'Even'/*value*/,/*正确书写方法 "name":"Even",*/
+            age:23,
+        };
+        for (var m in json) {
+            alert(json[m]);/*Even 23 value*/
+            alert(m);/*name age kay*/
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

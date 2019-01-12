@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        var oDiv=document.getElementById('div');
+        var oDiv1=document.getElementById('div1');
+        var a=1;
+        if (a) {
+            alert('true')
+        }else {
+            alert('false')
+        }  ; /*非零数字  真*/
+
+        var b=0;
+        if (b) {
+            alert('true')
+        }else {
+            alert('false')
+        }  ;/*零 假*/
+
+        var c='';
+        if (c) {
+            alert('true')
+        }else {
+            alert('false')
+        } /*空  假*/
+
+        var d=' ';
+        if (d) {
+            alert('true')
+        }else {
+            alert('false')
+        };  /*非空字符串 真*/
+
+        var g=oDiv;
+        if ( g) {
+            alert('true')
+        }else {
+            alert('false')
+        }  /*非空对象 真*/
+
+        var h=oDiv1;
+        if ( h) {
+            alert('true')
+        }else {
+            alert('false')
+        } ; /*nuil空对象 假*/
+
+
+        var i=false;
+        if ( i) {
+            alert('true')
+        }else {
+            alert('false')
+        } ; /* 假*/
+
+        var j=ture;
+        if ( j) {
+            alert('true')
+        }else {
+            alert('false')
+        }  ;/* 真*/
+
+        var k=NaN;
+        if ( k) {
+            alert('true')
+        }else {
+            alert('false')
+        } ; /* 假*/
+
+        var l=undefined;
+        if ( l) {
+            alert('true')
+        }else {
+            alert('false')
+        }  ;/* 假*/
+
+
+    </script>
+</head>
+<body>
+<div id="div"></div>
+
+</body>
+</html>

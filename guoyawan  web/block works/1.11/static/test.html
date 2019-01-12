@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        div {
+            width: 1960px;
+            margin: 30px auto 0;
+            overflow: hidden;
+        }
+
+        ul {
+            width: 270px;
+            list-style: none;
+            float: left;
+        }
+
+        li {
+            border: #000000 1px solid;
+            box-shadow: #ececec 2px 3px 5px;
+            width: 250px;
+            margin: 10px;
+        }
+        img{
+            width: 250px;
+        }
+        span{
+            width: 250px;
+            color: #000;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+<div id="pass">
+    <ul></ul>
+    <ul></ul>
+    <ul></ul>
+    <ul></ul>
+    <ul></ul>
+    <ul></ul>
+</div>
+<script>
+    var oPass = document.getElementById('pass');
+    var oUl = oPass.getElementsByTagName('ul');
+    function rod(n, m) {
+        return parseInt(Math.random() * (m - n) + n);
+    }
+
+    var photo=[
+        {
+            scr: '../images/1.jpg',
+            text: '世界上，只有想不通的人'
+        },
+        {
+            scr: '../images/2.jpg',
+            text: '世界上，没有想不通的事'
+        },
+        {
+            scr: '../images/3.jpg',
+            text: '日天津一人的建议哦'
+        },
+        {
+            scr: '../images/4.jpg',
+            text: '二是开展交通绿色建筑'
+        },
+        {
+            scr: '../images/5.jpg',
+            text: '客户发的开个小号的辛苦'
+        },
+        {
+            scr: '../images/6.jpg',
+            text: '说这句话刚开始计划通过'
+        },
+        {
+            scr: '../images/7.jpg',
+            text: '里的谁推荐'
+        },
+        {
+            scr: '../images/8.jpg',
+            text: '的客厅里软件园'
+        },
+        {
+            scr: '../images/9.jpg',
+            text: '打暑假工is这几个'
+        },
+        {
+            scr: '../images/10.jpg',
+            text: '空当接龙国际足联'
+        },
+        {
+            scr: '../images/11.jpg',
+            text: '大家庭领导人集体'
+        },
+        {
+            scr: '../images/12.jpg',
+            text: '代理机构类大家提供'
+        },
+        {
+            scr: '../images/13.jpg',
+            text: '的结果了地上'
+        },
+        {
+            scr: '../images/14.jpg',
+            text: '的实体卡泽虽然今天'
+        },
+        {
+            scr: '../images/15.jpg',
+            text: 'IE十几天的历史今天'
+        },
+    ];
+    var arr = [1,2,3];
+    var oLi = document.createElement('li');
+    oLi.innerHTML = '<img src="' + photo[rod(0, photo.length)].scr + '"><span>' + photo[rod(0, photo.length)].text + '</span>';
+
+      arr[40]=oUl[0];
+      for (var i=0;i<arr.length;i++) {
+          arr[i]+='1';
+      }
+
+        //console.log(arr[3]);        /*arr[1]= oUl[1];*/
+        console.log(arr);        /*arr[1]= oUl[1];*/
+
+    // console.log(arr[1]);
+    // console.log(arr);
+</script>
+
+</body>
+</html>

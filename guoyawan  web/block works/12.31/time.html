@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #box{
+            width: 100%;
+            height: 300px;
+            background: #000;
+            color: #FFFFFF;
+            font-size: 50px;
+            text-align: center;
+            line-height: 300px;
+        }
+    </style>
+
+    <script>
+        window.onload=function () {
+            var oBox=document.getElementById('box');
+
+            var oDate =new Date();
+
+            oDate.setFullYear(2019,0,14);/*定义未来年月日*/
+            oDate.setHours(0,0,0,0);/*定义未来时间时分秒毫秒*/
+
+            var oTime=setInterval(timer,1000);
+               timer();/*立即运行一次*/
+
+             function  timer() {
+                 var ms=oDate.getTime()-new Date().getTime(); /*未来时间-现在时间=ms*/
+
+                 function addZero(n) {return  n<10 ? '0'+n:  ' '+n;}/*if三目写法*/
+
+                     if (ms<0) {/*如果秒x小于0  停掉计时器*/
+                         clearInterval(oTime);
+                         ms=0;
+                     }
+
+                 var s=parseInt(ms/1000); /*换算成秒*/
+
+                 var oDay=parseInt(s/86400);/*天*/
+                 s %= 86400; /*剩余的天数*/
+
+                 var oHours=parseInt(s/3600);/*小时*/
+                 s%=3600;/*剩余的小时数*/
+
+                 var oMun=parseInt(s/60);/*分钟*/
+
+                 s%=60;/*剩余的秒数*/
+
+                 oBox.innerHTML='距离2019年还有 '+ addZero(oDay)+' 天 '+ addZero(oHours)+' : '+ addZero(oMun)+' : '+addZero(s);
+             }
+        }
+    </script>
+
+</head>
+<body>
+<div id="box">
+    距离2019年还有xx天xx时xx分xx秒
+</div>
+
+</body>
+</html>

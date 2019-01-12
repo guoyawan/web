@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            var oDiv = document.getElementById('div'),
+                oPass = document.getElementById('pass');
+            var aP = oDiv.getElementsByTagName('p');
+            oDiv1 = oDiv.children;
+            console.log(oDiv1.firstChild);
+            console.log(oDiv1.lastChild);
+
+            console.log(oPass.previousSibling.innerHTML);
+            // console.log(oPass.previousElementSibling.innerHTML);
+
+            console.log(oPass.nextSibling.innerHTML);
+            // console.log(oPass.nextElementSibling.innerHTML);
+
+            var prev1=oPass.nextElementSibling || oPass.nextSibling;
+
+            alert(prev1.innerHTML);
+
+        };
+
+
+    </script>
+</head>
+<body>
+<div id="div">
+    <em>0</em>
+    <p>1</p>
+    <p>2</p>
+    <p id="pass">3</p>
+    <p>4</p>
+    <p>5</p>
+    <p>6</p>
+    <p>7</p>
+    <p>8</p>
+</div>
+
+</body>
+</html>

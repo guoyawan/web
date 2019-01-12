@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input{
+            width: 100px;
+            height: 50px;
+            margin-left: 100px;
+        }
+    </style>
+    <script>
+        // (function() {
+        //     alert('1');
+        // })();/*匿名函数自执行 封闭空间*/
+        window.onload=function () {
+            var oBtn=document.getElementsByTagName('input');
+
+            // for (var i=0;i<oBtn.length;i++) {
+            //     oBtn[i].index=i;
+            //     oBtn[i].onclick=function () {
+            //         alert([this.index])
+            //     }
+            // }
+
+            for (var a=0;a<oBtn.length;a++) {
+                (function(index){
+                oBtn[index].onclick=function () {
+                    alert([index])
+                }
+                })(a);/*匿名函数自执行 封闭空间*/
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+<input type="button">
+<input type="button">
+<input type="button">
+</body>
+</html>

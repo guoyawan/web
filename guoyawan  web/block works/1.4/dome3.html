@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function fn() {
+            a=12; /*局部变量只能被子函数调用一次*/
+            function fn1() {
+                a++;
+                console.log(a);/*打印a*/
+            }
+           return fn1; /*返回fn1*/
+        }
+     var x=fn();
+        x();//13
+        x();//14
+        x();//15
+        x();//16   /*调用了四次fn1()*/
+
+     var v=fn;
+        v()();//13
+        v()();//13
+        v()();//13
+        v()();//13  //调用了四次fn();
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

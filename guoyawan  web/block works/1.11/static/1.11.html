@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        div {
+            width: 1200px;
+            margin: 30px auto 0;
+        }
+
+        ul {
+            width: 330px;
+            list-style: none;
+            float: left;
+        }
+
+        li {
+            border: #000000 1px solid;
+            box-shadow: #ececec 2px 3px 5px;
+            width: 300px;
+            margin: 10px;
+        }
+        img{
+            width: 300px;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            var oPass = document.getElementById('pass');
+            var oUl = oPass.getElementsByTagName('ul');
+
+            function rod(n, m) {
+                return parseInt(Math.random() * (m - n) + n);
+            }
+
+            var iNow = 0;
+
+            function create() {
+                for (var i = 0; i < 30; i++) {
+                    var oLi = document.createElement('li');
+                    oLi.style.height = rod(200, 350) + 'px';
+                    oLi.style.width = '300px';
+                    oLi.innerHTML = iNow++;
+
+                    var oH1 = oUl[0].offsetHeight;
+                    var oH2 = oUl[1].offsetHeight;
+                    var oH3 = oUl[2].offsetHeight;
+
+                    if (oH1 < oH2) {
+                        if (oH1 < oH3) {
+                            oUl[0].appendChild(oLi);
+                        } else {
+                            oUl[2].appendChild(oLi);
+                        }
+                    } else if (oH2 < oH3) {
+                        oUl[1].appendChild(oLi);
+                    } else {
+                        oUl[2].appendChild(oLi);
+                    }
+                }
+            }
+            create();
+            window.onscroll = function () {
+                var t = document.documentElement.offsetHeight + document.documentElement.scrollTop;
+                if (document.body.offsetHeight-200 < t) {
+                    create();
+                }
+
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+<div id="pass">
+    <ul></ul>
+    <ul></ul>
+    <ul></ul>
+</div>
+
+
+</body>
+</html>

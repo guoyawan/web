@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // <!--去掉重复,返回1,2,3,4,5,6-->
+        var arr = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6];/*定义一个数组*/
+
+        arr = arr.sort(function (a, b) {
+            return a - b;/*从小到大排序*/
+        });
+
+        //第一种
+        for (var i = 0; i < arr.length;) {/*for循环*/
+            if (arr[i] == arr[i + 1]) {/*if条件判断前后两值是否相等*/
+                arr.splice(i, 1);/*删除第i个字符的一个字节*/
+                i--;
+            }
+        }
+        //第二种:这个简单些
+        // for (var i = 0; i < arr.length;i++) {/*for循环*/
+        //     if (i%2==0) arr.splice(i,1);/*if条件判断*/
+        // }
+        alert(arr);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

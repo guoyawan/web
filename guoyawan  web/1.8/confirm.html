@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload = function () {
+
+            var oBtn = document.getElementById('btn'),
+                oDiv = document.getElementById('div');
+
+            oBtn.onclick = function () {
+                var str = confirm('确认要删除莫');
+                if (str) {
+                    oDiv.style.display = 'none';
+                } else {
+                    oDiv.style.display = 'block';
+                }
+            }
+        }
+    </script>
+    <style>
+        input {
+            width: 100px;
+            height: 50px;
+        }
+
+        div {
+            width: 500px;
+            height: 500px;
+            background: #000;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<input type="button" id="btn" value="删除">
+<div id="div"></div>
+
+</body>
+</html>
